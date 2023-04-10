@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "company_logo": "https://example.com/company1-logo.png",
+      "job_title": "Software Engineer",
+      "company_name": "Example Company 1",
+      "remote": false,
+      "location": "New York City",
+      "fulltime": true,
+      "salary": "90,000 - 120,000 USD",
+      "job_description": "We are seeking a skilled software engineer to join our team and help us develop high-quality software products. The ideal candidate has experience with Java, Python, and web development frameworks such as Django or Spring.",
+      "job_responsibility": "Responsibilities include developing and maintaining software applications, testing and debugging code, and collaborating with cross-functional teams to ensure project success.",
+      "educational_requirements": "Bachelor's or Master's degree in Computer Science, Software Engineering, or related field",
+      "experiences": "3+ years of experience in software development",
+      "contact_information": {
+        "phone": "+1 (555) 123-4567",
+        "email": "jobs@examplecompany1.com"
+      }
+    },
+    {
+      "id": 2,
+      "company_logo": "https://example.com/company2-logo.png",
+      "job_title": "Data Analyst",
+      "company_name": "Example Company 2",
+      "remote": true,
+      "location": "Remote",
+      "fulltime": true,
+      "salary": "70,000 - 90,000 USD",
+      "job_description": "We are seeking a skilled data analyst to join our team and help us analyze and interpret large datasets. The ideal candidate has experience with SQL, data visualization tools such as Tableau or Power BI, and statistical analysis software such as R or SAS.",
+      "job_responsibility": "Responsibilities include analyzing and interpreting large datasets, creating and presenting reports and visualizations, and collaborating with cross-functional teams to identify insights and opportunities for improvement.",
+      "educational_requirements": "Bachelor's or Master's degree in Data Science, Statistics, or related field",
+      "experiences": "2+ years of experience in data analysis",
+      "contact_information": {
+        "phone": "+1 (555) 123-4567",
+        "email": "jobs@examplecompany2.com"
+      }
+    },
+    {
+      "id": 3,
+      "company_logo": "https://example.com/company3-logo.png",
+      "job_title": "Marketing Manager",
+      "company_name": "Example Company 3",
+      "remote": false,
+      "location": "Los Angeles",
+      "fulltime": true,
+      "salary": "80,000 - 100,000 USD",
+      "job_description": "We are seeking a skilled marketing manager to join our team and help us develop and execute marketing campaigns. The ideal candidate has experience with digital marketing channels such as email, social media, and PPC advertising.",
+      "job_responsibility": "Responsibilities include developing and executing marketing campaigns, analyzing and reporting on campaign performance, and collaborating with cross-functional teams to ensure campaign success.",
+      "educational_requirements": "Bachelor's or Master's degree in Marketing, Communications, or related field",
+      "experiences": "5+ years of experience in marketing",
+      "contact_information": {
+        "phone": "+1 (555) 123-4567",
+        "email": "jobs@examplecompany3.com"
+      }
+    }
+]
