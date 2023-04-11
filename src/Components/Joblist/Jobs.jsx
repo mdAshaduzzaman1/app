@@ -16,7 +16,7 @@ const Jobs = () => {
             <div className='d-flex align-items-center justify-content-center mt-5 gap-4'>
             {
                 
-                jobs.map(data =>  <Job job ={data}></Job>)
+                jobs.map(data =>  <Job key={data.jobs_available} job ={data}></Job>)
             }
             </div>
         </div>

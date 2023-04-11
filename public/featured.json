@@ -1,0 +1,202 @@
+[
+  {
+    "id": "001",
+    "logo": "https://example.com/logo1.png",
+    "title": "Software Engineer",
+    "company": "Example Co.",
+    "location": "Remote",
+    "salary": "$100,000 - $120,000",
+    "description": "We're looking for a software engineer to help us build our next generation platform.",
+    "responsibilities": [
+      "Design and implement new features",
+      "Optimize performance and scalability",
+      "Collaborate with product and design teams"
+    ],
+    "education": "Bachelor's degree in Computer Science or related field",
+    "experience": "3+ years of professional software development experience",
+    "contact": {
+      "phone": "555-1234",
+      "email": "jobs@example.com"
+    }
+  },
+  {
+    "id": "002",
+    "logo": "https://example.com/logo2.png",
+    "title": "Marketing Manager",
+    "company": "Acme Inc.",
+    "location": "Onsite",
+    "salary": "$80,000 - $100,000",
+    "description": "We're looking for a marketing manager to help us grow our customer base.",
+    "responsibilities": [
+      "Develop and execute marketing campaigns",
+      "Analyze customer data and market trends",
+      "Collaborate with cross-functional teams"
+    ],
+    "education": "Bachelor's degree in Marketing or related field",
+    "experience": "5+ years of experience in marketing or related field",
+    "contact": {
+      "phone": "555-5678",
+      "email": "jobs@acme.com"
+    }
+  },
+  {
+    "id": "003",
+    "logo": "https://example.com/logo3.png",
+    "title": "Product Manager",
+    "company": "XYZ Corp.",
+    "location": "Remote",
+    "salary": "$120,000 - $140,000",
+    "description": "We're looking for a product manager to help us define and execute our product strategy.",
+    "responsibilities": [
+      "Define product roadmap and vision",
+      "Work with engineering and design teams to deliver high-quality products",
+      "Analyze market and customer data to inform product decisions"
+    ],
+    "education": "Bachelor's degree in Business, Computer Science or related field",
+    "experience": "7+ years of experience in product management or related field",
+    "contact": {
+      "phone": "555-9012",
+      "email": "jobs@xyzcorp.com"
+    }
+  },
+  {
+    "id": "004",
+    "logo": "https://example.com/logo4.png",
+    "title": "Sales Representative",
+    "company": "ABC Inc.",
+    "location": "Onsite",
+    "salary": "$60,000 - $80,000",
+    "description": "We're looking for a sales representative to help us grow our business.",
+    "responsibilities": [
+      "Identify and pursue new business opportunities",
+      "Build and maintain relationships with customers",
+      "Collaborate with cross-functional teams"
+    ],
+    "education": "Bachelor's degree in Business or related field",
+    "experience": "3+ years of experience in sales or related field",
+    "contact": {
+      "phone": "555-3456",
+      "email": "jobs@abcinc.com"
+    }
+  },
+  {
+    "id": "005",
+    "logo": "https://example.com/logo4.png",
+    "title": "Software Engneer",
+    "company": "KKL Inc.",
+    "location": "Onsite",
+    "salary": "$70,000 - $180,000",
+    "description": "We're looking for a crative engneer to help us grow our business.",
+    "responsibilities": [
+      "Identify and pursue new business opportunities",
+      "Build and maintain relationships with customers",
+      "Collaborate with cross-functional teams"
+    ],
+    "education": "Bachelor's degree in Business or related field",
+    "experience": "3+ years of experience in sales or related field",
+    "contact": {
+      "phone": "555-3424",
+      "email": "eng@kklinc.com"
+    }
+  },
+  {
+    "id": "006",
+    "logo": "https://example.com/logo4.png",
+    "title": "Sales Representative",
+    "company": "ABC Inc.",
+    "location": "Onsite",
+    "salary": "$60,000 - $80,000",
+    "description": "We're looking for a sales representative to help us grow our business.",
+    "responsibilities": [
+      "Identify and pursue new business opportunities",
+      "Build and maintain relationships with customers",
+      "Collaborate with cross-functional teams"
+    ],
+    "education": "Bachelor's degree in Business or related field",
+    "experience": "3+ years of experience in sales or related field",
+    "contact": {
+      "phone": "555-3456",
+      "email": "jobs@abcinc.com"
+    }
+  },
+  {
+    "id": "007",
+    "logo": "https://example.com/logo4.png",
+    "title": "Sales Representative",
+    "company": "ABC Inc.",
+    "location": "Onsite",
+    "salary": "$60,000 - $80,000",
+    "description": "We're looking for a sales representative to help us grow our business.",
+    "responsibilities": [
+      "Identify and pursue new business opportunities",
+      "Build and maintain relationships with customers",
+      "Collaborate with cross-functional teams"
+    ],
+    "education": "Bachelor's degree in Business or related field",
+    "experience": "3+ years of experience in sales or related field",
+    "contact": {
+      "phone": "555-3456",
+      "email": "jobs@abcinc.com"
+    }
+  },
+  {
+    "id": "008",
+    "logo": "https://example.com/logo4.png",
+    "title": "Sales Representative",
+    "company": "ABC Inc.",
+    "location": "Onsite",
+    "salary": "$60,000 - $80,000",
+    "description": "We're looking for a sales representative to help us grow our business.",
+    "responsibilities": [
+      "Identify and pursue new business opportunities",
+      "Build and maintain relationships with customers",
+      "Collaborate with cross-functional teams"
+    ],
+    "education": "Bachelor's degree in Business or related field",
+    "experience": "3+ years of experience in sales or related field",
+    "contact": {
+      "phone": "555-3456",
+      "email": "jobs@abcinc.com"
+    }
+  },
+  {
+    "id": "009",
+    "logo": "https://example.com/logo4.png",
+    "title": "Sales Representative",
+    "company": "ABC Inc.",
+    "location": "Onsite",
+    "salary": "$60,000 - $80,000",
+    "description": "We're looking for a sales representative to help us grow our business.",
+    "responsibilities": [
+      "Identify and pursue new business opportunities",
+      "Build and maintain relationships with customers",
+      "Collaborate with cross-functional teams"
+    ],
+    "education": "Bachelor's degree in Business or related field",
+    "experience": "3+ years of experience in sales or related field",
+    "contact": {
+      "phone": "555-3456",
+      "email": "jobs@abcinc.com"
+    }
+  },
+  {
+    "id": "010",
+    "logo": "https://example.com/logo4.png",
+    "title": "Sales Representative",
+    "company": "ABC Inc.",
+    "location": "Onsite",
+    "salary": "$60,000 - $80,000",
+    "description": "We're looking for a sales representative to help us grow our business.",
+    "responsibilities": [
+      "Identify and pursue new business opportunities",
+      "Build and maintain relationships with customers",
+      "Collaborate with cross-functional teams"
+    ],
+    "education": "Bachelor's degree in Business or related field",
+    "experience": "3+ years of experience in sales or related field",
+    "contact": {
+      "phone": "555-3456",
+      "email": "jobs@abcinc.com"
+    }
+  }
+]
