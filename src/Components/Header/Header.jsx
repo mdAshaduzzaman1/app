@@ -9,7 +9,7 @@ const Header = () => {
             <div className='d-flex gap-5'>
             <Link to='/'>Home</Link>
                <Link to="/statistics">Statistics</Link>
-               <Link to="/apply">Applied Jobs</Link>
+               <Link to="/applied">Applied Jobs</Link>
                 <Link to="/blog">Blog</Link> 
 
             </div>

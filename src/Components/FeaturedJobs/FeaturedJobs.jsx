@@ -7,8 +7,13 @@ const FeaturedJobs = () => {
   const [loader, setLoader] = useState(false);
   const [featured, setFeatured] = useState([]);
 
-  const handleClick = () => {
-    setLoader(true);
+  const handleClick = (call) => {
+    
+    if(call === loader){
+      setLoader(true);
+    }
+   else
+   setLoader(false)
   };
 
   // Call useLoaderData() inside the component
@@ -34,7 +39,7 @@ const FeaturedJobs = () => {
           <Featuredlist key={data.id} list={data}></Featuredlist>
         ))}
       </div>
-      <button onClick={() => handleClick()} className="btn btn-dark">
+      <button onClick={() => handleClick(!true)} className="btn btn-dark">
         See All
       </button>
     </div>
