@@ -9,7 +9,7 @@ import Routes from './Components/Routes/Routes';
 
 import Blogs from './Components/Blogs/Blogs';
 import Statistics from './Components/Statistics/Statistics';
-import Details from './Components/Applied/Details';
+import Details from './Components/Details/Details';
 
 
 const router = createBrowserRouter([

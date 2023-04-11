@@ -6,7 +6,7 @@ const Featuredlist = ({ list, handleCart }) => {
 
   return (
     <div>
-      <div className="border border-danger">
+      <div className="border border-light p-5">
         <h3>Job title: {job_title}</h3>
         <h3>Company Name: {company_name}</h3>
         <p> Remote: {remote ? "Yes" : "Not"}</p>

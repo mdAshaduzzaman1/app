@@ -7,12 +7,12 @@ const Details = (props) => {
  
  const location = useLocation()
  const data = location.state;
- console.log(data.remote)
+ console.log(data)
   
     
     return (
         <div>
-           <h2>Company name : {data.company_name}</h2>
+           <h2>Company name:{data.company} </h2>
         </div> 
     );
 };

@@ -1,59 +1,44 @@
-import React, { useEffect, useState } from 'react';
-import Featuredlist from '../FeaturedList/Featuredlist';
-import { useLoaderData } from 'react-router-dom';
-
-import Applied from '../Applied/Details';
-
+import "./FeaturedJobd.css";
+import Featuredlist from "../FeaturedList/Featuredlist";
+import { useLoaderData } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 const FeaturedJobs = () => {
-    // const [featured, setFeatured] = useState([])
-    const [cart, setCart] = useState([])
+  const [loader, setLoader] = useState(false);
+  const [featured, setFeatured] = useState([]);
 
-    const featured = useLoaderData()
-    
+  const handleClick = () => {
+    setLoader(true);
+  };
 
+  // Call useLoaderData() inside the component
+  const data = useLoaderData();
 
-    // useEffect(()=>{
-    //     fetch('featured.json')
-    //     .then(res => res.json())
-    //     .then(data => setFeatured(data))
-    // },[])
-
-    // const handleCart = (id) => {
-    //     const isExists = cart.find(d=>d.id === id);
-    //     if(isExists && isExists !== undefined)
-    //     {
-    //       return
-    //     }
-    //     if(!isExists){
-    //       const exists = featured.find((l) => l.id === id);
-    //       if(exists)
-    //       {
-    //         setCart([exists])
-    //       }
-    //     }
-      
-    //   };
-
-
-    return (
-        <div>
-            <h1>Featured Jobs</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus similique esse quasi magni.</p>
-            
- 
-        {
-          featured.map( data=> <Featuredlist key={data.id} list={data}></Featuredlist>)
+  // Update the featured state based on the loader state
+  useEffect(() => {
+    if (loader) {
+      setFeatured(data);
      
-        }
-       {/* {
-  cart.length > 0 && <Applied cart={cart}></Applied>
-} */}
+    } else {
+      setFeatured(data.slice(0, 4));
+    }
+  }, [loader, data]);
 
-        
-        </div>
-    
-    );
+  return (
+    <div className="text-center mt-5">
+      <h1>Featured Jobs</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus similique esse quasi magni.</p>
+
+      <div className="container mt-5">
+        {featured.map((data) => (
+          <Featuredlist key={data.id} list={data}></Featuredlist>
+        ))}
+      </div>
+      <button onClick={() => handleClick()} className="btn btn-dark">
+        See All
+      </button>
+    </div>
+  );
 };
 
 export default FeaturedJobs;
