@@ -27,7 +27,8 @@ const FeaturedJobs = () => {
     } else {
       setFeatured(data.slice(0, 4));
     }
-  }, [loader, data]);
+  }, [loader]);
+  
 
   return (
     <div className="text-center mt-5">
@@ -40,7 +41,9 @@ const FeaturedJobs = () => {
         ))}
       </div>
       <button onClick={() => handleClick(!true)} className="btn btn-dark">
-        See All
+        {
+          loader===true? "See Less": "See More"
+        }
       </button>
     </div>
   );

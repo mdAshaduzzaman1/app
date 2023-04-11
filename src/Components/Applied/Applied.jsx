@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
+
 
 const Applied = () => {
+
+  
     return (
         <div>
             <h1>Applied</h1>

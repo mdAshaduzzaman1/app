@@ -13,6 +13,8 @@ import Details from './Components/Details/Details';
 import Applied from './Components/Applied/Applied';
 
 
+
+
 const router = createBrowserRouter([
  {
   path: '/',
@@ -34,11 +36,14 @@ const router = createBrowserRouter([
     },
     {
       path:'details',
-      element: <Details></Details>
+      element: <Details></Details>,
+      loader: ()=> fetch('featured.json')
     },
     {
       path: 'applied',
       element: <Applied></Applied>
+     
+     
     }
 
    

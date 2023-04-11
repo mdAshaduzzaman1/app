@@ -1,6 +1,7 @@
 [
   {
     "id": "001",
+    "address": "India",
     "logo": "https://example.com/logo1.png",
     "title": "Software Engineer",
     "company": "Example Co.",
@@ -21,6 +22,7 @@
   },
   {
     "id": "002",
+    "address": "Singapore",
     "logo": "https://example.com/logo2.png",
     "title": "Marketing Manager",
     "company": "Acme Inc.",
@@ -41,6 +43,7 @@
   },
   {
     "id": "003",
+    "address": "Austria",
     "logo": "https://example.com/logo3.png",
     "title": "Product Manager",
     "company": "XYZ Corp.",
@@ -61,6 +64,7 @@
   },
   {
     "id": "004",
+    "address": "Africa",
     "logo": "https://example.com/logo4.png",
     "title": "Sales Representative",
     "company": "ABC Inc.",
@@ -81,6 +85,7 @@
   },
   {
     "id": "005",
+    "address": "USA",
     "logo": "https://example.com/logo4.png",
     "title": "Software Engneer",
     "company": "KKL Inc.",
@@ -101,6 +106,7 @@
   },
   {
     "id": "006",
+    "address": "England",
     "logo": "https://example.com/logo4.png",
     "title": "Sales Representative",
     "company": "ABC Inc.",
@@ -121,6 +127,7 @@
   },
   {
     "id": "007",
+    "address": "Korea",
     "logo": "https://example.com/logo4.png",
     "title": "Sales Representative",
     "company": "ABC Inc.",
@@ -141,6 +148,7 @@
   },
   {
     "id": "008",
+    "address": "Poland",
     "logo": "https://example.com/logo4.png",
     "title": "Sales Representative",
     "company": "ABC Inc.",
@@ -161,6 +169,7 @@
   },
   {
     "id": "009",
+    "address": "Germany",
     "logo": "https://example.com/logo4.png",
     "title": "Sales Representative",
     "company": "ABC Inc.",
@@ -181,6 +190,7 @@
   },
   {
     "id": "010",
+    "address": "Ghana",
     "logo": "https://example.com/logo4.png",
     "title": "Sales Representative",
     "company": "ABC Inc.",
