@@ -9,3 +9,4 @@
 * LocalStorage Works fine
 * You can see all your applied jobs
 * You also can sort your applied jobs 
+* live link : https://delightful-strudel-e3aa8d.netlify.app/
