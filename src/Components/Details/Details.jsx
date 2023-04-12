@@ -1,7 +1,8 @@
 
+import { addToDb } from '../../Utilities/h';
 import './Details.css'
 import {  useLocation } from 'react-router-dom';
-import { addToStorage } from '../../Utilities/Utilities';
+// import { addToStorage } from '../../Utilities/Utilities';
 
 
 
@@ -11,13 +12,14 @@ const Details = () => {
 
  const location = useLocation()
  const data = location.state;
+ console.log(data.id)
 
 
 
 
 
- const addToCart = (id) => {
-    addToStorage(id)
+ const addToCart = (data) => {
+    addToDb(data.id)
   };
   
  
@@ -49,7 +51,7 @@ const Details = () => {
                 <p><span className='fw-bolder'>Email: </span> {data.contact.email}</p>
                 <p><span className='fw-bolder'>Address: </span>{data.address}</p>
                 <hr />
-                <button onClick={()=>addToCart(data.id)} className='btn btn-info w-100'>Apply Now</button>
+                <button onClick={()=>addToCart(data)} className='btn btn-info w-100'>Apply Now</button>
                
             </div>
             
