@@ -3,3 +3,10 @@
     grid-template-columns: 6fr 6fr;
   
 }
+@media (max-width: 574px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  

@@ -13,7 +13,7 @@ const Jobs = () => {
         <div className='d-flex flex-column justify-content-center align-items-center mt-5'>
             <h1>Job Category List</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, iusto!</p>
-            <div className='d-flex align-items-center justify-content-center mt-5 gap-4'>
+            <div className='d-flex align-items-center flex-column flex-sm-row justify-content-center mt-5 gap-4'>
             {
                 
                 jobs.map(data =>  <Job key={data.jobs_available} job ={data}></Job>)

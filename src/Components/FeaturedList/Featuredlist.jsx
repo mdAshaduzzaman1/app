@@ -18,8 +18,8 @@ const Featuredlist = ({ list }) => {
     <div >
     <h3> {title}</h3>
         <h3> {company}</h3>
-        <p> Remote: {remote ? "Yes" : "Not"}</p>
-        <p> <FontAwesomeIcon icon={faLocationCrosshairs} /> location: {location}</p>
+       
+        <p> <FontAwesomeIcon icon={faLocationCrosshairs} /> Type: {location}</p>
         <p> <FontAwesomeIcon icon={faDollar} /> Salary: {salary}</p>
     
         <Link to="/details" state={list}>

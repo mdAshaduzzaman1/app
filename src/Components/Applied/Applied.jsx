@@ -21,6 +21,7 @@ useEffect(() => {
     if (newCart.length > 0) {
       setList(newCart);
     }
+    
   }, [loaderData]);
 
   const remote =()=>{

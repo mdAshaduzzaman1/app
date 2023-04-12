@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoneyCheckDollar } from "@fortawesome/free-solid-svg-icons";
 
 const Data = ({ data }) => {
-  console.log(data);
+  
 
   return (
     <div>
