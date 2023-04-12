@@ -2,6 +2,9 @@
 import { addToDb } from '../../Utilities/Utilities';
 import './Details.css'
 import {  Link, useLocation } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDollar,  } from '@fortawesome/free-solid-svg-icons';
+
 
 
 
@@ -46,8 +49,8 @@ const Details = () => {
             <div className='border border-white p-5 bg-secondary bg-opacity-10'>
                 <h4>Job Details</h4>
                 <hr />
-                <p><span className='fw-bolder'>Salary: {data.salary} </span></p>
-                <p><span className='fw-bolder'>Job Title: {data.title}</span></p>
+                <p><span className='fw-bolder'><FontAwesomeIcon icon={faDollar} /> Salary:{data.salary}</span></p>
+                <p><span className='fw-bolder'> Job Title: {data.title}</span></p>
                 <h4>Contact Information</h4>
                 <hr />
 
