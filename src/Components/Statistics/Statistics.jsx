@@ -1,68 +1,79 @@
-// import React from 'react';
+import React from 'react';
+import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
-// const Statistics = () => {
-//     return (
-//         <div>
-//             <h1>Statistics</h1>
-//         </div>
-//     );
-// };
+const Statistics = () => {
+  const data = [
+    {
+      name: 'Assignment-1',
+    
+      marks: 57,
+    
+      
+    },
+    {
+      name: 'Assignment-2',
+    
+      marks: 59,
+    
+      
+    },
+    {
+      name: 'Assignment-3',
+    
+      marks: 58,
+    
+      
+    },
+    {
+      name: 'Assignment-4',
+    
+      marks: 48,
+    
+      
+    },
+    {
+      name: 'Assignment-5',
+    
+      marks: 50,
+    
+      
+    },
+    {
+      name: 'Assignment-6',
+    
+      marks: 60,
+    
+      
+    },
+    {
+      name: 'Assignment-7',
+    
+      marks: 60,
+    
+      
+    },
+    {
+      name: 'Assignment-8',
+    
+      marks: 58,
+    
+      
+    },
+  ];
 
-// export default Statistics;
+  return (
+    <div className="w-75">
+      <ResponsiveContainer width="100%" height={400}>
+        <AreaChart data={data}>
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis dataKey="name" />
+          <YAxis />
+          <Tooltip />
+          <Area type="monotone" dataKey="marks" stroke="#8884d8" fill="#8884d8" />
+        </AreaChart>
+      </ResponsiveContainer>
+    </div>
+  );
+};
 
-// import React from 'react';
-// import {
-//   Chart as ChartJS,
-//   CategoryScale,
-//   LinearScale,
-//   BarElement,
-//   Title,
-//   Tooltip,
-//   Legend,
-// } from 'chart.js';
-// import { Bar } from 'react-chartjs-2';
-// import faker from 'faker';
-
-// ChartJS.register(
-//   CategoryScale,
-//   LinearScale,
-//   BarElement,
-//   Title,
-//   Tooltip,
-//   Legend
-// );
-
-// export const options = {
-//   responsive: true,
-//   plugins: {
-//     legend: {
-//       position: 'top' as const,
-//     },
-//     title: {
-//       display: true,
-//       text: 'Chart.js Bar Chart',
-//     },
-//   },
-// };
-
-// const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
-
-// export const data = {
-//   labels,
-//   datasets: [
-//     {
-//       label: 'Dataset 1',
-//       data: labels.map(() => faker.datatype.number({ min: 0, max: 1000 })),
-//       backgroundColor: 'rgba(255, 99, 132, 0.5)',
-//     },
-//     {
-//       label: 'Dataset 2',
-//       data: labels.map(() => faker.datatype.number({ min: 0, max: 1000 })),
-//       backgroundColor: 'rgba(53, 162, 235, 0.5)',
-//     },
-//   ],
-// };
-
-// export function App() {
-//   return <Bar options={options} data={data} />;
-// }
+export default Statistics;
