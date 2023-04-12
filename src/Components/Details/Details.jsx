@@ -1,7 +1,7 @@
 
 import { addToDb } from '../../Utilities/Utilities';
 import './Details.css'
-import {  useLocation } from 'react-router-dom';
+import {  Link, useLocation } from 'react-router-dom';
 
 
 
@@ -55,7 +55,7 @@ const Details = () => {
                 <p><span className='fw-bolder'>Email: </span> {data.contact.email}</p>
                 <p><span className='fw-bolder'>Address: </span>{data.address}</p>
                 <hr />
-                <button onClick={()=>addToCart(data)} className='btn btn-info w-100'>Apply Now</button>
+                <Link to={'/success'}><button onClick={()=>addToCart(data)} className='btn btn-info w-100'>Apply Now</button></Link>
                
             </div>
             

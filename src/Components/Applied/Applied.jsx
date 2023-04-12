@@ -36,13 +36,12 @@ const sortedRemoteJobs = remoteJobs.sort((a, b) => a.location.localeCompare(b.lo
 setList(sortedRemoteJobs)
   }
   
-
   
     return (
         <div className='text-center '>
             <h1 className=''>Applied Job</h1>
            <div className='d-flex gap-2 mt-5 align-items-center justify-content-center'>
-           <button onClick={()=>onsite()} className='btn btn-outline-danger'>Onsite?</button>
+           <button onClick={()=>onsite()} className='btn btn-outline-danger'>Onsite</button>
             <button onClick={()=>remote()} className='btn btn-dark'>Remote</button>
            </div>
         {
