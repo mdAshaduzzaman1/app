@@ -63,6 +63,7 @@ const Statistics = () => {
 
   return (
     <div className="w-75">
+      <h1 className='mb-5'> Assignment marks chart!</h1>
       <ResponsiveContainer width="100%" height={400}>
         <AreaChart data={data}>
           <CartesianGrid strokeDasharray="3 3" />

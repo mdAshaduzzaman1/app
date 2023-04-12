@@ -1,8 +1,8 @@
 
-import { addToDb } from '../../Utilities/h';
+import { addToDb } from '../../Utilities/Utilities';
 import './Details.css'
 import {  useLocation } from 'react-router-dom';
-// import { addToStorage } from '../../Utilities/Utilities';
+
 
 
 
@@ -35,7 +35,11 @@ const Details = () => {
            <div className='job-container gap-3'>
             <div className='border border-white text-left ms-3 p-5'>
                <p className=''><span className='fw-bolder '>Job Description: </span>{data.description}</p> 
-               <p>Job Responsibility: </p>
+               <p>Job Responsibility: {
+                data.responsibilities.map((res,index) =>{
+                    return <li key={index}>{res}</li>
+                })
+                }</p>
                <p><span className='fw-bolder'>Education: </span> {data.education} </p>
 
             </div>

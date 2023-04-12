@@ -1,10 +1,9 @@
 import React from 'react';
 
-const Blogs = ({d}) => {
-    console.log(d)
+const Blogs = () => {
     return (
         <div>
-         
+            
         </div>
     );
 };

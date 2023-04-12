@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-// import { getStorageData } from '../../Utilities/Utilities';
+
 
 import Data from '../Data/Data';
-import { getShoppingCart } from '../../Utilities/h';
+import { getShoppingCart } from '../../Utilities/Utilities';
 import { useLoaderData } from 'react-router-dom';
 
 const Applied = () => {
@@ -39,10 +39,12 @@ setList(sortedRemoteJobs)
 
   
     return (
-        <div className='text-center'>
+        <div className='text-center '>
             <h1 className=''>Applied Job</h1>
-            <button onClick={()=>onsite()} className='btn btn-outline-danger'>Onsite?</button>
+           <div className='d-flex gap-2 mt-5 align-items-center justify-content-center'>
+           <button onClick={()=>onsite()} className='btn btn-outline-danger'>Onsite?</button>
             <button onClick={()=>remote()} className='btn btn-dark'>Remote</button>
+           </div>
         {
             list.map(data => <Data data={data} ></Data>)
         }
