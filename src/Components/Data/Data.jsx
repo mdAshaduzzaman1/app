@@ -1,9 +1,13 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoneyCheckDollar } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
+
 
 const Data = ({ data }) => {
-  
+  console.log(data)
+
+
 
   return (
     <div>
@@ -26,7 +30,12 @@ const Data = ({ data }) => {
             </div>
           </div>
         </div>
-        <button className="btn btn-danger h-25 w-25">Details</button>
+        
+        <Link to="/details" state={data}>
+          <button className="btn btn-danger">
+            View Details
+          </button>
+        </Link>
       </div>
     </div>
   );

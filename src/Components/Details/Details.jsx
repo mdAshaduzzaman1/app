@@ -15,7 +15,7 @@ const Details = () => {
 
  const location = useLocation()
  const data = location.state;
-
+console.log(data)
 
 
 

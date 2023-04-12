@@ -3,7 +3,7 @@ import React from 'react';
 const Blogs = () => {
     return (
         <div className='w-75 p-4'>
-            <h1 className='text-danger'>When you should use useContext?</h1>
+            <h1 className='text-danger'>When you should Context api?</h1>
             <p className='fw-bold'>When you wanna get rid of prop drilling you should use use context . It is like a mobile tower and it can send data to any component telepathecally and can use that data in that component</p>
             <h1 className='text-danger'>What is custom hook?</h1>
             <p className='fw-bold'>Custom hook is a js function that is starts the word "use" such as useEffect,useState . But a custom hook can provide a specific behavior that can be used by any component.</p>

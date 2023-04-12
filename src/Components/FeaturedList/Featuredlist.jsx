@@ -7,7 +7,7 @@ import { faLocationCrosshairs, faDollar} from '@fortawesome/free-solid-svg-icons
 
 const Featuredlist = ({ list }) => {
   
-  const {logo, title, company, remote, location, salary } = list;
+  const {logo, title, company, location, salary } = list;
 
   return (
     <div>
